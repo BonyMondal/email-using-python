@@ -1,0 +1,6 @@
+SENDING EMAIL USING PYTHON -->
+1.Copy the code
+2.replace example@gmail.com with sender email address.
+3.replace concept1@gmail.com with receiver email address.
+and after that type the message.
+AND ALL DONE****
