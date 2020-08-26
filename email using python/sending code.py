@@ -1,11 +1,7 @@
-n,k=map(int,input().split(" "))
-a=list(map(int,input().split(" ")))
-b=[]
-for i in range(len(a)):
-   # print(a[i])
-    if a[i]//2:
-        d=a[i]//2
-       #   print(d)
-        b.append(d)
-print(sum(b))
-        
+import smtplib 
+server = smtplib.SMTP_SSL("smtp.gmail.com",465)
+server.login("example@gmail.com", "password")
+server.sendmail("example@gmail.com",
+                 "concept1@gmail.com",
+                 "hello, how are you?")
+server.quit()
